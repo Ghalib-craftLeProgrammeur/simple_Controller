@@ -1,0 +1,22 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(520,5): warning MSB8004: Le répertoire Output ne se termine pas par une barre oblique finale. Cette instance de build ajoutera une barre oblique, comme requis, pour permettre l'évaluation correcte du répertoire Output.
+  controller_device_driver.cpp
+  device_provider.cpp
+  hmd_driver_factory.cpp
+     Création de la bibliothèque D:\Telechargement\openvr-2.5.1\openvr-2.5.1\samples\drivers\output\drivers\simplecontroller\bin\win32\driver_simplecontroller.lib et de l'objet D:\Telechargement\openvr-2.5.1\openvr-2.5.1\samples\drivers\output\drivers\simplecontroller\bin\win32\driver_simplecontroller.exp
+controller_device_driver.obj : error LNK2001: symbole externe non résolu _WSAGetLastError@0
+controller_device_driver.obj : error LNK2001: symbole externe non résolu _htons@4
+controller_device_driver.obj : error LNK2001: symbole externe non résolu _recv@16
+controller_device_driver.obj : error LNK2001: symbole externe non résolu _connect@12
+controller_device_driver.obj : error LNK2001: symbole externe non résolu _socket@12
+controller_device_driver.obj : error LNK2001: symbole externe non résolu _inet_addr@4
+controller_device_driver.obj : error LNK2001: symbole externe non résolu "public: virtual struct vr::DriverPose_t __thiscall MyControllerDeviceDriver::GetPose(void)" (?GetPose@MyControllerDeviceDriver@@UAE?AUDriverPose_t@vr@@XZ)
+controller_device_driver.obj : error LNK2001: symbole externe non résolu "public: virtual void __thiscall MyControllerDeviceDriver::DebugRequest(char const *,char *,unsigned int)" (?DebugRequest@MyControllerDeviceDriver@@UAEXPBDPADI@Z)
+controller_device_driver.obj : error LNK2001: symbole externe non résolu "public: virtual void * __thiscall MyControllerDeviceDriver::GetComponent(char const *)" (?GetComponent@MyControllerDeviceDriver@@UAEPAXPBD@Z)
+controller_device_driver.obj : error LNK2001: symbole externe non résolu "public: virtual void __thiscall MyControllerDeviceDriver::EnterStandby(void)" (?EnterStandby@MyControllerDeviceDriver@@UAEXXZ)
+controller_device_driver.obj : error LNK2001: symbole externe non résolu _WSAStartup@8
+controller_device_driver.obj : error LNK2001: symbole externe non résolu _closesocket@4
+controller_device_driver.obj : error LNK2001: symbole externe non résolu _WSACleanup@0
+device_provider.obj : error LNK2001: symbole externe non résolu "public: void __thiscall MyControllerDeviceDriver::MyProcessEvent(struct vr::VREvent_t const &)" (?MyProcessEvent@MyControllerDeviceDriver@@QAEXABUVREvent_t@vr@@@Z)
+device_provider.obj : error LNK2001: symbole externe non résolu "public: void __thiscall MyControllerDeviceDriver::MyRunFrame(void)" (?MyRunFrame@MyControllerDeviceDriver@@QAEXXZ)
+device_provider.obj : error LNK2001: symbole externe non résolu "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall MyControllerDeviceDriver::MyGetSerialNumber(void)" (?MyGetSerialNumber@MyControllerDeviceDriver@@QAEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+D:\Telechargement\openvr-2.5.1\openvr-2.5.1\samples\drivers\output\drivers\simplecontroller\bin\win32\driver_simplecontroller.dll : fatal error LNK1120: 16 externes non résolus

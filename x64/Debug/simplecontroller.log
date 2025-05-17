@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(520,5): warning MSB8004: Le répertoire Output ne se termine pas par une barre oblique finale. Cette instance de build ajoutera une barre oblique, comme requis, pour permettre l'évaluation correcte du répertoire Output.
+  controller_device_driver.cpp
+D:\Telechargement\openvr-2.5.1\openvr-2.5.1\samples\drivers\drivers\simplecontroller\src\controller_device_driver.cpp(223,26): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  device_provider.cpp
+  hmd_driver_factory.cpp
+  Génération de code en cours...
